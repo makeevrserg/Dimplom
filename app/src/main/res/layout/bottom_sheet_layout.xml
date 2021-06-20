@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/colorPrimary"
+    android:orientation="vertical">
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10sp"
+        android:background="?attr/colorPrimaryDark"
+        android:text="Settings"
+        android:textColor="#DDDDDD" />
+
+
+
+
+    <TextView
+        android:id="@+id/textViewCaptureTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="5sp"
+        android:text="Capture Time: 10 second"
+        android:textColor="#DDDDDD"
+        android:textSize="15sp" />
+
+    <SeekBar
+        android:id="@+id/seekBarCaptureTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="5sp"
+        android:layout_marginBottom="5sp"
+        android:max="30"
+        android:min="5"
+        android:progress="10" />
+    <TextView
+        android:id="@+id/textViewMinConfidence"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="5sp"
+        android:text="Min Confidence: 0.5"
+        android:textColor="#DDDDDD"
+        android:textSize="15sp" />
+
+    <SeekBar
+        android:id="@+id/seekBarMinConfidence"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="5sp"
+        android:layout_marginBottom="5sp"
+        android:max="99"
+        android:min="10"
+        android:progress="50" />
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/textInputLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Логин"
+            android:textColor="#FFF"
+            android:textColorHint="#FFF" />
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/textInputPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Пароль"
+            android:inputType="textPassword"
+            android:textColor="#FFF"
+            android:textColorHint="#FFF" />
+
+    <Button
+        android:id="@+id/buttonRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10sp"
+        android:background="?attr/colorPrimaryDark"
+        android:text="Регистрация"
+        android:textColor="#DDDDDD" />
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10sp"
+        android:background="?attr/colorPrimaryDark"
+        android:text="Войти"
+        android:textColor="#DDDDDD" />
+    <!--    <Button-->
+    <!--        android:id="@+id/buttonColorChange"-->
+    <!--        android:layout_margin="5sp"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:background="?attr/colorPrimaryDark"-->
+    <!--        android:textAllCaps="false"-->
+    <!--        android:text="Color Settings"-->
+    <!--        android:textColor="@android:color/holo_red_light" />-->
+</LinearLayout>

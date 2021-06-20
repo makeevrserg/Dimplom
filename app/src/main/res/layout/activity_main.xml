@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#252525"
+    android:orientation="vertical"
+    tools:context=".main.MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimaryDark"
+        app:title="Menu"
+        app:titleTextColor="#DDDDDD"/>
+
+    <Button
+        android:id="@+id/buttonRealTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5sp"
+        android:background="?attr/colorPrimaryDark"
+        android:text="Real-Time"
+        android:textColor="#DDDDDD" />
+
+    <Button
+        android:id="@+id/buttonOpenExisting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5sp"
+        android:background="?attr/colorPrimaryDark"
+        android:text="From Gallery"
+        android:textColor="#DDDDDD" />
+    <Button
+        android:id="@+id/buttonOpenExistingVideo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5sp"
+        android:background="?attr/colorPrimaryDark"
+        android:text="Video From Gallery"
+        android:textColor="#DDDDDD" />
+    <Button
+        android:id="@+id/buttonOpenCamera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5sp"
+        android:background="?attr/colorPrimaryDark"
+        android:text="From Camera"
+        android:textColor="#DDDDDD" />
+    <Button
+        android:id="@+id/buttonTestImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5sp"
+        android:background="?attr/colorPrimaryDark"
+        android:text="Test Image"
+        android:textColor="#DDDDDD" />
+
+    <Button
+        android:id="@+id/buttonTestPost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5sp"
+        android:background="?attr/colorPrimaryDark"
+        android:text="POST REQUEST"
+        android:textColor="#DDDDDD" />
+</LinearLayout>
